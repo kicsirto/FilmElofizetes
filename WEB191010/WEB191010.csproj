@@ -185,6 +185,10 @@
     <Compile Include="Migrations\201910111641452_addElofizetes.Designer.cs">
       <DependentUpon>201910111641452_addElofizetes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201910111648012_addElofizetes1.cs" />
+    <Compile Include="Migrations\201910111648012_addElofizetes1.Designer.cs">
+      <DependentUpon>201910111648012_addElofizetes1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ElofizetesTipus.cs" />
@@ -317,6 +321,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201910111641452_addElofizetes.resx">
       <DependentUpon>201910111641452_addElofizetes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910111648012_addElofizetes1.resx">
+      <DependentUpon>201910111648012_addElofizetes1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

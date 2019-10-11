@@ -7,9 +7,10 @@ namespace WEB191010.Models
 {
     public class ElofizetesTipus
     {
+        public int Id { get; set; }
         public int Dij { get; set; }
         public int IdotartamHonapban { get; set; }
-        public string Kedvezmeny { get; set; }
+        public int Kedvezmeny { get; set; }
         
 
     }
