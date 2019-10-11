@@ -9,5 +9,7 @@ namespace WEB191010.Models
     {
         public int Id { get; set; }
         public string Nev { get; set; }
+        public bool Hirlevel { get; set; }
+        public ElofizetesTipus elofizetesTipus { set; get; }
     }
 }
